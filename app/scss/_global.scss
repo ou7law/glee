@@ -16,7 +16,10 @@ body{
   flex-grow: 1;
 }
 
-.container{
+.container,
+.header__container,
+.top-slider__container,
+.category__container{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -27,4 +30,12 @@ a{
   line-height: 30px;
   color: $default;
   @extend %rubik-400;
+}
+
+.title{
+  text-align: center;
+  font-size: 36px;
+  @extend %dmsans-700;
+  color: $title;
+  margin-bottom: 40px;
 }

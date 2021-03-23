@@ -38,28 +38,201 @@
           </ul>
         </nav>
         <div class="user-nav">
-          <a class="user-nav__link" href="#">
+          <button class="user-nav__btn user-nav__btn-search" href="#">
             <img class="user-nav__link-img" src="images/icons/search-icon.svg" alt="user icon">
-          </a>
-          <a class="user-nav__link user-nav__yellow-link" href="#">
-            <img class="user-nav__link-img" src="images/icons/fav-icon.svg" alt="user icon">
-            <span class="user-nav__num">0</span>
-          </a>
-          <a class="user-nav__link user-nav__yellow-link" href="#">
-            <img class="user-nav__link-img" src="images/icons/cart-icon.svg" alt="user icon">
-            <span class="user-nav__num">0</span>
-          </a>
-          <a class="user-nav__link" href="#">           
+          </button>
+          <div class="user-nav__link">
+            <a class="user-nav__item user-nav__item-fav" href="#">
+              <img class="user-nav__link-img" src="images/icons/fav-icon.svg" alt="user icon">
+              <span class="user-nav__num">0</span>
+            </a>
+            <a class="user-nav__item user-nav__item-cart" href="#">
+              <img class="user-nav__link-img" src="images/icons/cart-icon.svg" alt="user icon">
+              <span class="user-nav__num">0</span>
+            </a>
+          </div>      
+          <button class="user-nav__btn user-nav__btn-more" href="#">           
             <img class="user-nav__link-img" src="images/icons/more-icon.svg" alt="user icon">
-          </a>
+          </button>
         </div>
       </div>
   </div>
   </header>
 
   <main class="main">
-    <section class="section">
-      
+    <section class="top-slider section">
+      <div class="container top-slider__container">
+        <div class="top-slider__inner">
+        <div class="top-slider__item">
+          <div class="top-slider__content">
+            <h3 class="top-slider__title">
+              SMART AND 
+              TRENDY
+            </h3>
+            <p class="top-slider__text">
+              Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+            </p>
+            <a class="top-slider__link" href="#">Shop Now</a>
+          </div>
+          <div class="top-slider__wrapper-img">
+          <img class="top-slider__img" src="images/slider/1.png" alt="slide image">
+        </div>
+        </div>
+        <div class="top-slider__item">
+          <div class="top-slider__content">
+            <h3 class="top-slider__title">
+              SMART AND 
+              TRENDY
+            </h3>
+            <p class="top-slider__text">
+              Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+            </p>
+            <a class="top-slider__link" href="#">Shop Now</a>
+          </div>
+          <div class="top-slider__wrapper-img">
+            <img class="top-slider__img" src="images/slider/1.png" alt="slide image">
+          </div>
+        </div>
+        <div class="top-slider__item">
+          <div class="top-slider__content">
+            <h3 class="top-slider__title">
+              SMART AND 
+              TRENDY
+            </h3>
+            <p class="top-slider__text">
+              Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+            </p>
+            <a class="top-slider__link" href="#">Shop Now</a>
+          </div>
+          <div class="top-slider__wrapper-img">
+            <img class="top-slider__img" src="images/slider/1.png" alt="slide image">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="categories-info section">
+      <div class="container__top container">
+        <div class="info">
+          <div class="info__item info__item-support">               
+            <h5 class="info__item-title">
+              Support 24/7.
+            </h5>
+            <div class="info__item-text">
+              Contact us 24 hours a day,
+7 days a week.
+            </div>
+          </div>
+          <div class="info__item info__item-delivery">
+            <h5 class="info__item-title">
+              Delivery.
+            </h5>
+            <div class="info__item-text">
+              Free shipping on all US order.
+            </div>
+          </div>
+          <div class="info__item info__item-payment">
+            <h5 class="info__item-title">
+              100% Payment secure.
+            </h5>
+            <div class="info__item-text">
+              We ensure secure payment
+with PEV.
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="products">
+            <h2 class="title">Products of the week</h2>
+            <div class="products__top">
+              <div class="products__top-filter__btn">
+                <button class="products__top-btn" data-filter="all">All</button>
+                <button class="products__top-btn" data-filter="all">Furnitures</button>
+                <button class="products__top-btn" data-filter="all">Chairs</button>
+                <button class="products__top-btn" data-filter="all">Lightning</button>
+                <button class="products__top-btn" data-filter="all">Decor</button>
+              </div>
+            </div>
+            <div class="products__content">
+              <div class="products__item">
+                <img class="products__img" src="images/content/1.png" alt="product img" >
+                <h4 class="products__title">Wooden Radio</h4>
+                <p class="products__price">$29.00</p>
+                <div class="products__item-bg"></div>
+              </div>
+              <div class="products__item">
+                <img class="products__img" src="images/content/2.png" alt="product img" >
+                <h4 class="products__title">Wooden Chair</h4>
+                <p class="products__price">$29.00</p>
+                <div class="products__item-bg"></div>
+              </div>
+              <div class="products__item">
+                <img class="products__img" src="images/content/3.png" alt="product img" >
+                <h4 class="products__title">White Chair</h4>
+                <p class="products__price">$29.00</p>
+                <div class="products__item-bg"></div>
+              </div>
+              <div class="products__item">
+                <img class="products__img" src="images/content/4.png" alt="product img" >
+                <h4 class="products__title">Retro table</h4>
+                <p class="products__price">$29.00</p>
+                <div class="products__item-bg"></div>
+              </div>
+              <div class="products__item">
+                <img class="products__img" src="images/content/5.png" alt="product img" >
+                <h4 class="products__title">Wooden Radio</h4> 
+                <p class="products__price">$29.00</p>
+                <div class="products__item-bg"></div>
+              </div>
+              <div class="products__item">
+                <img class="products__img" src="images/content/6.png" alt="product img" >
+                <h4 class="products__title">Wooden Chair</h4>
+                <p class="products__price">$29.00</p>
+                <div class="products__item-bg"></div>
+              </div>
+              <div class="products__item">
+                <img class="products__img" src="images/content/7.png" alt="product img" >
+                <h4 class="products__title">White Chair</h4>
+                <p class="products__price">$29.00</p>
+                <div class="products__item-bg"></div>
+              </div>
+              <div class="products__item">
+                <img class="products__img" src="images/content/8.png" alt="product img" >
+                <h4 class="products__title">Retro Table</h4>
+                <p class="products__price">$29.00</p>
+                <div class="products__item-bg"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+            <div class="container__big">
+          <div class="categories-items">
+            <div class="categories__item">
+              <div class="categories__item-img">
+                <img class="categories__small-lamp" src="images/content/smalllamp.png" alt="">
+              </div>
+              <div class="categories__content">
+              <h4 class="categories__item-title">Mirum Notare Tellus</h4>
+              <div class="categories__item-subtitle">LEDCornBulb Lamp 5W 7W 10W 12W 15W E26 E27LEDCornLight</div>
+              <a class="categories__link" href="#">View More</a>
+            </div>
+            </div>
+            <div class="categories__item">
+              <div class="categories__item-img">
+                <img class="categories__big-lamp" src="images/content/biglamp.png" alt="">
+              </div>
+              <div class="categories__content">                
+              <h4 class="categories__item-title">Malesuada Tempor 
+                Euismod</h4>
+              <div class="categories__item-subtitle">50W 8000lm Compact Size for HID StreetLightReplacementLEDCornLight</div>
+              <a class="categories__link" href="#">View More</a>  
+            </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
     </section>
   </main>
 
