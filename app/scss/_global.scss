@@ -16,6 +16,10 @@ body{
   flex-grow: 1;
 }
 
+.container__big{
+  max-width: 1800px;
+}
+
 .container,
 .header__container,
 .top-slider__container,
