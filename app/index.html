@@ -147,14 +147,14 @@ with PEV.
             <div class="products__top">
               <div class="products__top-filter__btn">
                 <button class="products__top-btn" data-filter="all">All</button>
-                <button class="products__top-btn" data-filter="all">Furnitures</button>
-                <button class="products__top-btn" data-filter="all">Chairs</button>
-                <button class="products__top-btn" data-filter="all">Lightning</button>
-                <button class="products__top-btn" data-filter="all">Decor</button>
+                <button class="products__top-btn" data-filter=".category-a">Furnitures</button>
+                <button class="products__top-btn" data-filter=".category-b">Chairs</button>
+                <button class="products__top-btn" data-filter=".category-c">Lightning</button>
+                <button class="products__top-btn" data-filter=".category-d">Decor</button>
               </div>
             </div>
             <div class="products__content">
-              <div class="products__item">
+              <div class="products__item mix category-a">
                 <div class="products__item-img__box">
                   <img class="products__item-img" src="images/content/1.png" alt="product img" >
                   <div class="products__item-link__box">
@@ -190,7 +190,7 @@ with PEV.
                 <h4 class="products__item-title">Wooden Radio</h4>
                 <p class="products__item-price">$29.00</p>                
               </div>
-              <div class="products__item">
+              <div class="products__item mix category-a">
                 <div class="products__item-img__box">
                   <img class="products__item-img" src="images/content/2.png" alt="product img" >
                   <div class="products__item-link__box">
@@ -226,7 +226,7 @@ with PEV.
                 <h4 class="products__item-title">Wooden Chair</h4>
                 <p class="products__item-price">$29.00</p>                
               </div>
-              <div class="products__item">
+              <div class="products__item mix category-b">
                 <div class="products__item-img__box">
                   <img class="products__item-img" src="images/content/3.png" alt="product img" >
                   <div class="products__item-link__box">
@@ -262,7 +262,7 @@ with PEV.
                 <h4 class="products__item-title">White Chair</h4>
                 <p class="products__item-price">$29.00</p>                
               </div>
-              <div class="products__item">
+              <div class="products__item mix category-b">
                 <div class="products__item-img__box">
                   <img class="products__item-img" src="images/content/4.png" alt="product img" >
                   <div class="products__item-link__box">
@@ -298,7 +298,7 @@ with PEV.
                 <h4 class="products__item-title">Retro table</h4>
                 <p class="products__item-price">$29.00</p>                
               </div>
-              <div class="products__item">
+              <div class="products__item mix category-c">
                 <div class="products__item-img__box">
                   <img class="products__item-img" src="images/content/5.png" alt="product img" >
                   <div class="products__item-link__box">
@@ -334,7 +334,7 @@ with PEV.
                 <h4 class="products__item-title">Wooden Radio</h4> 
                 <p class="products__item-price">$29.00</p>                
               </div>
-              <div class="products__item">
+              <div class="products__item mix category-c">
                 <div class="products__item-img__box">
                   <img class="products__item-img" src="images/content/6.png" alt="product img" >
                   <div class="products__item-link__box">
@@ -370,7 +370,7 @@ with PEV.
                 <h4 class="products__item-title">Wooden Chair</h4>
                 <p class="products__item-price">$29.00</p>                
               </div>
-              <div class="products__item">
+              <div class="products__item mix category-d">
                 <div class="products__item-img__box">
                   <img class="products__item-img" src="images/content/7.png" alt="product img" >
                   <div class="products__item-link__box">
@@ -406,7 +406,7 @@ with PEV.
                 <h4 class="products__item-title">White Chair</h4>
                 <p class="products__item-price">$29.00</p>                
               </div>
-              <div class="products__item">
+              <div class="products__item mix category-d">
                 <div class="products__item-img__box">
                   <img class="products__item-img" src="images/content/8.png" alt="product img" >
                   <div class="products__item-link__box">
@@ -474,11 +474,91 @@ with PEV.
         </div>       
       </div>
     </section>
-    <section class="video">
-      <div class="video__popup">
-        <a data-fancybox class="video__popup-link" href="https://youtu.be/Ax5YFnzhZL0">
-          <img src="images/icons/play-button.svg" alt="play icon">
-        </a>
+    <div class="video__popup">
+      <a data-fancybox class="video__popup-link" href="https://youtu.be/Ax5YFnzhZL0">
+        <img src="images/icons/play-button.svg" alt="play icon">
+      </a>
+    </div>
+    <section class="blog">
+      <div class="container">
+        <div class="blog__top">
+          <h3 class="title">
+            Our Insights & Articles
+          </h3>
+          <a class="blog__top-link"  href="#">
+            View All            
+          </a>
+        </div>
+        <div class="blog__items">
+          <div class="blog__item">
+            <a class="blog__item-imglink" href="#">
+              <img src="images/blog/1.jpg" alt="blog img">
+            </a>   
+            <div class="blog__item-box">
+              <a class="blog__item-box__link" href="#">News</a>
+              <a class="blog__item-box__titlelink" href="#">
+                <h4 class="blog__item-box__title">
+                  Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </h4>
+              </a>
+              <div class="blog__item-box__info">
+                <a class="blog__item-box__data" href="#">28 JANUARY, 2020</a>
+                <a class="blog__item-box__author" href="#">By Admin</a>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <a class="blog__item-imglink" href="#">
+              <img src="images/blog/2.jpg" alt="blog img">
+            </a>   
+            <div class="blog__item-box">
+              <a class="blog__item-box__link" href="#">News</a>
+              <a class="blog__item-box__titlelink" href="#">
+                <h4 class="blog__item-box__title">
+                  Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </h4>
+              </a>
+              <div class="blog__item-box__info">
+                <a class="blog__item-box__data" href="#">28 JANUARY, 2020</a>
+                <a class="blog__item-box__author" href="#">By Admin</a>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <a class="blog__item-imglink" href="#">
+              <img src="images/blog/3.jpg" alt="blog img">
+            </a>   
+            <div class="blog__item-box">
+              <a class="blog__item-box__link" href="#">News</a>
+              <a class="blog__item-box__titlelink" href="#">
+                <h4 class="blog__item-box__title">
+                  Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </h4>
+              </a>
+              <div class="blog__item-box__info">
+                <a class="blog__item-box__data" href="#">28 JANUARY, 2020</a>
+                <a class="blog__item-box__author" href="#">By Admin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog__item-bot">
+          <div class="blog__item-bot__clients">
+            <img src="images/icons/1.png" alt="img clients">
+          </div>
+          <div class="blog__item-bot__clients">
+            <img src="images/icons/2.png" alt="img clients">
+          </div>
+          <div class="blog__item-bot__clients">
+            <img src="images/icons/3.png" alt="img clients">
+          </div>
+          <div class="blog__item-bot__clients">
+            <img src="images/icons/4.png" alt="img clients">
+          </div>
+          <div class="blog__item-bot__clients">
+            <img src="images/icons/5.png" alt="img clients">
+          </div>
+        </div>
       </div>
     </section>
   </main>
